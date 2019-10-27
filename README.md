@@ -2,7 +2,7 @@ This repository contains the learned demographic model and script to predict dem
 
 The demographic model's full vocabulary and count tables (averaged over the last 50 Gibbs sampling iterations) are in `model/vocab.txt` and `model/model_count_table.txt`, respectively. Demographic predictions for a tweet can be calculated by loading the model with 
 
-`predict.load_model(../model/model_count_table.txt)`
+`predict.load_model(modelfile)`
 
 and calling
 
