@@ -22,3 +22,5 @@ year = 2016}
 ```
 
 More information is available at: http://slanglab.cs.umass.edu/TwitterAAE/
+
+Please send questions to: blodgett@cs.umass.edu and brenocon@cs.umass.edu
