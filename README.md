@@ -12,6 +12,8 @@ for a given tweet. Output proportions are for the African-American, Hispanic, As
 
 Tokenizing for the paper was done using `code/twokenize.py` and emoji detection done with `code/emoji.py`.
 
+Python 2.7 is assumed.
+
 If you use this demographic model or code, please cite the paper:
 ```
 @inproceedings{blodgett2016demographic,
