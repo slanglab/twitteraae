@@ -14,6 +14,23 @@ Tokenizing for the paper was done using `code/twokenize.py` and emoji detection 
 
 Python 2.7 is assumed.
 
+Example usage:
+
+```
+$ cd code
+$ python2.7
+
+>>> import predict
+
+>>> predict.load_model()
+
+>>> predict.predict(u"hello there".split())
+array([0.16603718, 0.27450171, 0.22886004, 0.33060107])
+
+>>> predict.predict(u"af af af".split())
+array([8.42944382e-01, 1.32149345e-01, 1.11905398e-04, 2.47943681e-02])
+```
+
 If you use this demographic model or code, please cite the paper:
 ```
 @inproceedings{blodgett2016demographic,
